@@ -39,15 +39,25 @@ class MainTest extends WP_UnitTestCase {
 
 	function test_post_doesnt_exists() {
 		$this->assertNotContains( 'post', $this->main_class->post_type_support_taxomony( 'wibble' ) );
-		$this->assertEmpty( 'post', $this->main_class->post_type_support_taxomony( 'wibble' ) );
+		$this->assertEmpty( $this->main_class->post_type_support_taxomony( 'wibble' ) );
 	}
 
 	function test_book_exists() {
 		$this->assertContains( 'book', $this->main_class->post_type_support_taxomony( 'post_tag' ) );
 	}
 
+	function test_rock_not_got_tags() {
+		$this->assertNotContains( 'rock', $this->main_class->post_type_support_taxomony( 'post_tag' ) );
+		$this->assertNotContains( 'rock', $this->main_class->post_type_support_taxomony( 'wibble' ) );
+	}
+
+	function test_paper_not_got_tags() {
+		$this->assertNotContains( 'paper', $this->main_class->post_type_support_taxomony( 'post_tag' ) );
+		$this->assertNotContains( 'paper', $this->main_class->post_type_support_taxomony( 'wibble' ) );
+	}
+
 	function test_pen_not_public() {
-		$this->assertContains( 'pen', $this->main_class->post_type_support_taxomony( 'post_tag' ) );
+		$this->assertNotContains( 'pen', $this->main_class->post_type_support_taxomony( 'post_tag' ) );
 	}
 }
 
