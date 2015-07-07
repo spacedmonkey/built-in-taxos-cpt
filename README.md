@@ -4,9 +4,6 @@ Simple plugin that adds support for tags and category to custom post types. This
 
 If you wish to follow the development of this plugin follow me on twitter [@thespacedmonkey](https://twitter.com/thespacedmonkey).
 
-## GitHub Updater
-
-The Built-in Taxonomies on Custom Post Types includes native support for the [GitHub Updater](https://github.com/afragen/github-updater) which allows you to provide updates to your WordPress plugin from GitHub.
 
 ## License
 

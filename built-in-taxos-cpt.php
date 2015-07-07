@@ -8,7 +8,7 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Built-in Taxonomies on CPT
- * Plugin URI:        http://www.jonathandavidharris.co.uk/plugins/built-in-taxos-cpt
+ * Plugin URI:        https://github.com/spacedmonkey/built-in-taxos-cpt/
  * Description:       Add Built-in Taxonomies on Custom Post Types
  * Version:           1.0.0
  * Author:            Jonathan Harris
@@ -16,6 +16,7 @@
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Domain Path:       /languages
+ * GitHub Plugin URI: https://github.com/spacedmonkey/built-in-taxos-cpt
  */
 
 // If this file is called directly, abort.
