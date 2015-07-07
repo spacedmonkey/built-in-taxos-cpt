@@ -1,0 +1,21 @@
+{
+    "name": "spacedmonkey/built-in-taxos-cpt",
+    "description": "Built-in Taxonomies on Custom Post Types",
+    "homepage": "https://github.com/spacedmonkey/built-in-taxos-cpt/",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Jonathan Harris",
+            "homepage": "http://www.jonathandavidharris.co.uk/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/spacedmonkey/built-in-taxos-cpt/issues",
+        "source": "https://github.com/spacedmonkey/built-in-taxos-cpt/"
+    },
+    "require": {
+        "php": ">=5.3",
+        "composer/installers": "~1.0"
+    }
+}
